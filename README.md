@@ -53,7 +53,7 @@ curl -X POST http://localhost:3001/anonymize -H "Content-Type: application/json"
 curl -X POST http://localhost:3001/deanonymize -H "Content-Type: application/json" -d '{"anonymizedMessage":"oferta de trabajo para NAME_abc123 con email EMAIL_def456 y teléfono PHONE_ghi789"}'
 ```
 
-### Usar programa con ChatGPT
+### Uso con ChatGPT
 
 ```bash
 curl -X POST http://localhost:3001/secureChatGPT -H "Content-Type: application/json" -d '{"prompt":"Genera un correo para Juan Pérez (jperez@example.com) sobre su oferta de trabajo"}'
