@@ -1,5 +1,4 @@
-# Grupo N1  - Los Generadores de IA
-# Data Privacy Vault con Integración de ChatGPT 💻🔒
+# Grupo N1  - Los Generadores de IA 🤖
 
 Este proyecto implementa un Data Privacy Vault que anonimiza información personal identificable (PII) en mensajes de texto y proporciona una integración segura con ChatGPT.
 
@@ -29,7 +28,7 @@ Este proyecto implementa un Data Privacy Vault que anonimiza información person
    npm install
    ```
 
-3. Crear un archivo `.env` en la raíz del proyecto con el siguiente contenido:
+3. Busca el archivo `.env` en la raíz del proyecto con el siguiente contenido, y remplazalo con valores reales:
    ```
    MONGODB_URI=<tu_cadena_de_conexion_mongodb>
    OPENAI_API_KEY=<tu_api_key_de_openai>
