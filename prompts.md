@@ -27,7 +27,7 @@
    - Respuesta esperada:
      ```json
      {
-         "message": "oferta de trabajo para Nicolas pico con email nicolas@gmail.com y teléfono 1234567891"
+         "message": "oferta de trabajo para Nico pico con email nicopg@example.com y teléfono 1234567891"
      }
      ```
 
