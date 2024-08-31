@@ -28,7 +28,7 @@ Este proyecto implementa un Data Privacy Vault que anonimiza información person
    npm install
    ```
 
-3. Busca el archivo `.env` en la raíz del proyecto con el siguiente contenido, y remplazalo con valores reales:
+3. Busca el archivo `.env` en la raíz del proyecto y reemplázalo con valores reales:
    ```
    MONGODB_URI=<tu_cadena_de_conexion_mongodb>
    OPENAI_API_KEY=<tu_api_key_de_openai>
