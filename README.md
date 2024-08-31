@@ -19,8 +19,8 @@ Este proyecto implementa un Data Privacy Vault que anonimiza información person
 
 1. Clonar el repositorio:
    ```
-   git clone https://github.com/NicolasPicoG/transformaciondigital.git
-   cd transformaciondigital
+   git clone git@github.com:NicolasPicoG/Data-Privacy-Vaulth-Transformacion-Digital.git
+   cd Data-Privacy-Vaulth-Transformacion-Digital
    ```
 
 2. Instalar las dependencias: 📦
@@ -44,7 +44,7 @@ Este proyecto implementa un Data Privacy Vault que anonimiza información person
 ### Anonimizar un mensaje
 
 ```bash
-curl -X POST http://localhost:3001/anonymize -H "Content-Type: application/json" -d '{"message":"oferta de trabajo para Juan Pérez con email nicopg@example.com y teléfono 1234567890"}'
+curl -X POST http://localhost:3001/anonymize -H "Content-Type: application/json" -d '{"message":"oferta de trabajo para Nico Pico con email nicopg@example.com y teléfono 1234567890"}'
 ```
 
 ### Desanonimizar un mensaje
@@ -56,7 +56,7 @@ curl -X POST http://localhost:3001/deanonymize -H "Content-Type: application/jso
 ### Uso con ChatGPT
 
 ```bash
-curl -X POST http://localhost:3001/secureChatGPT -H "Content-Type: application/json" -d '{"prompt":"Genera un correo para Juan Pérez (jperez@example.com) sobre su oferta de trabajo"}'
+curl -X POST http://localhost:3001/secureChatGPT -H "Content-Type: application/json" -d '{"prompt":"Genera un correo para Nico Pico (jperez@example.com) sobre su oferta de trabajo"}'
 ```
 
 ## Notas de seguridad 🔒
