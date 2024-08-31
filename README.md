@@ -56,7 +56,7 @@ curl -X POST http://localhost:3001/deanonymize -H "Content-Type: application/jso
 ### Uso con ChatGPT
 
 ```bash
-curl -X POST http://localhost:3001/secureChatGPT -H "Content-Type: application/json" -d '{"prompt":"Genera un correo para Nico Pico (jperez@example.com) sobre su oferta de trabajo"}'
+curl -X POST http://localhost:3001/secureChatGPT -H "Content-Type: application/json" -d '{"prompt":"Genera un correo para Nico Pico (nicopg@example.com) sobre su oferta de trabajo"}'
 ```
 
 ## Notas de seguridad 🔒
