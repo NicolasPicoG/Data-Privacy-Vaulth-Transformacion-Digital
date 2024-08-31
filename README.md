@@ -45,7 +45,7 @@ Este proyecto implementa un Data Privacy Vault que anonimiza información person
 ### Anonimizar un mensaje
 
 ```bash
-curl -X POST http://localhost:3001/anonymize -H "Content-Type: application/json" -d '{"message":"oferta de trabajo para Juan Pérez con email jperez@example.com y teléfono 1234567890"}'
+curl -X POST http://localhost:3001/anonymize -H "Content-Type: application/json" -d '{"message":"oferta de trabajo para Juan Pérez con email nicopg@example.com y teléfono 1234567890"}'
 ```
 
 ### Desanonimizar un mensaje
@@ -54,7 +54,7 @@ curl -X POST http://localhost:3001/anonymize -H "Content-Type: application/json"
 curl -X POST http://localhost:3001/deanonymize -H "Content-Type: application/json" -d '{"anonymizedMessage":"oferta de trabajo para NAME_abc123 con email EMAIL_def456 y teléfono PHONE_ghi789"}'
 ```
 
-### Usar ChatGPT de forma segura
+### Usar programa con ChatGPT
 
 ```bash
 curl -X POST http://localhost:3001/secureChatGPT -H "Content-Type: application/json" -d '{"prompt":"Genera un correo para Juan Pérez (jperez@example.com) sobre su oferta de trabajo"}'
@@ -63,6 +63,5 @@ curl -X POST http://localhost:3001/secureChatGPT -H "Content-Type: application/j
 ## Notas de seguridad 🔒
 
 - Asegúrese de mantener su archivo `.env` seguro y no lo comparta públicamente.
-- Este proyecto es una demostración y puede requerir medidas de seguridad adicionales para su uso en producción.
 - Por favor remplace los archivos del `.env` con valores reales para hacer la prueba del sistema.
-
+- Este proyecto es una demostración y puede requerir medidas de seguridad adicionales para su uso en producción.
