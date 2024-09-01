@@ -23,9 +23,10 @@ Este proyecto implementa un Data Privacy Vault que anonimiza información person
    cd Data-Privacy-Vaulth-Transformacion-Digital
    ```
 
-2. Instalar las dependencias: 📦
+2. Instalar las dependencias y otros complementos: 📦
    ```bash
    npm install
+   npm install mongodb
    ```
 
 3. Busca el archivo `.env` en la raíz del proyecto y reemplázalo con valores reales:
